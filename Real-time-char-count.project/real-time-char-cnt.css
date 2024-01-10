@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(233, 147, 161);
+
+}
+
+section {
+    background-color: pink;
+    padding: 35px;
+    width: 400px;
+    text-align: center;
+    font-family: Kalam,Poppins;
+}
+
+section div {
+    display: flex;
+    justify-content: space-between;
+}
+
+section h1 {
+    font-size: 30px;
+}
+
+section {
+    position: relative;
+    left: 500px;
+    top: 150px;
+    box-shadow:  2px 2px 2px 2px rgb(49, 48, 48);
+    border-radius: 10px;
+  
+}
+section div p .no{
+    color: blue;
+}
+section div p .num{
+    color: orangered;
+}
+@media only screen and (min-width:720px) and (max-width:1020px) {
+    section{
+        position: relative;
+        left: 250px;
+        
+        
+    }
+}
+@media only screen and (min-width:240px) and (max-width:720px) {
+    section{
+        position: relative;
+        left: 10px;
+        width: 380px;
+        padding: 20px;
+        
+        
+    }
+}
+
+
